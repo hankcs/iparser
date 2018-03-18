@@ -1,0 +1,8 @@
+include README.md
+include setup.cfg
+include README.md
+recursive-exclude * .DS_Store
+recursive-include iparser/static *
+recursive-exclude iparser/static/ctb/pos *
+recursive-exclude iparser/static/ctb/dep *
+recursive-exclude iparser/static/ptb *
