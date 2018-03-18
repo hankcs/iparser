@@ -1,6 +1,8 @@
 # IParser: Industrial Strength Dependency Parser
 
-Yet another multilingual dependency parser, integrated with tokenizer, part-of-speech tagger and visualization tool. IParser can parse raw sentence to dependency tree in CoNLL format, and is able to visualize trees in your browser. [See live demo!](http://iparser.hankcs.com/)
+Yet another multilingual dependency parser, integrated with tokenizer, part-of-speech tagger and visualization tool. IParser can parse raw sentence to dependency tree in CoNLL format, and is able to visualize trees in your browser. 
+
+[See live demo!](http://iparser.hankcs.com/)
 
 Currently, iparser is in a prototype state. It makes no warranty and may not be ready for practical usage.
 
