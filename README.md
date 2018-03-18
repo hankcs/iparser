@@ -139,7 +139,7 @@ optional arguments:
 ```
 
 - The default URL is http://localhost:8666/
-- You can check our live demo at http://iparser.hankcs.com/
+- You can also view the live demo at http://iparser.hankcs.com/
 
 
 ## Train Models
