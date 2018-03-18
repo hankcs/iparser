@@ -33,7 +33,7 @@ You type a sentence, hit enter, IParser will output its dependency tree.
 - Use `iparser segment` or `iparser tag` for word segmentation or part-of-speech tagging
 - Some models may take a while to load
 - IParser is language-agnostic, pre-trained models are provided for both English and Chinese, shipped in the installation package. The default model is PTB (English), you can switch to CTB (Chinese) via appending `--language cn`
-- Append `--help` to see the detail manual
+- Append `--help` to see the detailed manual
 
 #### Pipeline
 
