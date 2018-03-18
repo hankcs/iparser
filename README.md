@@ -23,10 +23,10 @@ You can play with IParser in an interactive mode:
 ```
 $ iparser parse
 I looove iparser!
-1	I       _	_	PRP	_	2	nsubj	_	_
-2	looove  _	_	VBP	_	0	root	_	_
-3	iparser _	_	NN	_	2	dobj	_	_
-4	!       _	_	.   _	2	punct
+1	I	_	_	PRP	_	2	nsubj	_	_
+2	looove	_	_	VBP	_	0	root	_	_
+3	iparser	_	_	NN	_	2	dobj	_	_
+4	!	_	_	.	_	2	punct	_	_
 ```
 You type a sentence, hit enter, IParser will output its dependency tree.
 
@@ -45,10 +45,10 @@ $ iparser tag <<< 'I looove iparser!'
 I/PRP looove/VBP iparser/NN !/.
 
 $ iparser parse <<< 'I looove iparser!' 
-1	I       _	_	PRP	_	2	nsubj	_	_
-2	looove  _	_	VBP	_	0	root	_	_
-3	iparser _	_	NN	_	2	dobj	_	_
-4	!       _	_	.   _	2	punct	_	_
+1	I	_	_	PRP	_	2	nsubj	_	_
+2	looove	_	_	VBP	_	0	root	_	_
+3	iparser	_	_	NN	_	2	dobj	_	_
+4	!	_	_	.	_	2	punct	_	_
 ```
 
 - `iparser` is a compatible pipeline for standard I/O redirection. You can use `iparser` directly in terminal without writing codes.
