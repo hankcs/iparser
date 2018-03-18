@@ -128,8 +128,8 @@ If you only want to perform an intermediate step, you can checkout the following
 ### Server
 
 ```
-$ iparser.server
-usage: iparser.server [-h] [--port PORT]
+$ iparser serve --help
+usage: iparser serve [-h] [--port PORT]
 
 A http server for IParser
 
@@ -144,7 +144,7 @@ optional arguments:
 
 ## Train Models
 
-IParser is designed to be language-agnostic, which means it has universal language support, only need to give some corpora of a desired language. 
+IParser is designed to be language-agnostic, which means it has universal language support, only need to prepare some corpora of a desired language. 
 
 ### Corpus Format
 
@@ -165,7 +165,7 @@ python3
 
 ### CLI
 
-The CLI is not only capable for prediction, but also can perform training. Only requires a configuration file.
+The CLI is not only capable for prediction, but can also perform training. Only requires a configuration file.
 
 ```
 $ iparser segment --help
