@@ -32,7 +32,7 @@ You type a sentence, hit enter, IParser will output its dependency tree.
 
 - Use `iparser segment` or `iparser tag` for word segmentation or part-of-speech tagging
 - Some models may take a while to load
-- IParser is language-agnostic, we provide pre-trained models for both English and Chinese, shipped in the installation package. The default model is PTB (English), you can switch to CTB (Chinese) via appending `--language cn`
+- IParser is language-agnostic, pre-trained models are provided for both English and Chinese, shipped in the installation package. The default model is PTB (English), you can switch to CTB (Chinese) via appending `--language cn`
 - Append `--help` to see the detail manual
 
 #### Pipeline
@@ -152,7 +152,7 @@ The format is described here: https://github.com/hankcs/TreebankPreprocessing
 
 ### Configuration File
 
-IParser employs configuration files to ensure the same network is created before and after serialization, in training phase and testing phase accordingly. This is important for research engineers who want to fine-tune those hyper parameters, or train new models on third language corpora. We provide well documented configuration template files, containing all configurable parameters for users to adjust. 
+IParser employs configuration files to ensure the same network is created before and after serialization, in training phase and testing phase accordingly. This is important for research engineers who want to fine-tune those hyper parameters, or train new models on third language corpora. Configuration template files are provided with all configurable parameters for users to adjust. 
 
 You can check out templates shipped with the `iparsermodels`, e.g.
 
